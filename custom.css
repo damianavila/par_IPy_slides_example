@@ -1,0 +1,24 @@
+/*Some css fixes to use night theme with IPython slides*/
+.reveal {
+font-size: 200%;
+overflow-y: hidden;
+overflow-x: hidden;
+}
+.reveal a:not(.image) {
+color: white;
+}
+.reveal p, .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6{
+color: white;
+}
+.reveal ul, .reveal ol {
+color: white;
+}
+div.output_area pre {
+color: white;
+}
+div.output_stderr {
+background: #F00;
+}
+.reveal table th, .reveal table td {
+color: white;
+}
